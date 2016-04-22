@@ -49,3 +49,14 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+# binnacle ruby driver
+gem 'binnacle', '~> 0.4.1'
+
+# client-side assets
+source 'https://rails-assets.org' do
+  gem 'rails-assets-binnacle', '~> 0.1.7'
+end
+
+gem 'rails_12factor', group: :production
+ruby "2.2.0"
